@@ -4,6 +4,6 @@ const cartP = (props) => {
     return (
      <CartContext.Provider value={[cart, setProductsInCart]}>
       {props.children}
-     </CartContext.Provider>
+     </Cart}ontext.Provider>
     )
    }
